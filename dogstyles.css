@@ -1,0 +1,53 @@
+body {
+    background-color: #92BFB1;
+    color: black;
+    align-items: center;
+}
+
+header {
+    color: #DAD6D6;
+    background-color: #694a38;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.element {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bentham-regular {
+    font-family: "Bentham", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5em;
+
+}
+
+#myImage {
+    width: 200px;
+    /* initial width */
+    height: auto;
+    /* Maintain aspect ratio */
+    cursor: pointer;
+    /* Changes cursor to a hand to indicate interactivity */
+    transition: transform 0.25s ease;
+    /* Smooth transition for the transform property */
+}
+
+.enlarged {
+    transform: scale (2.5);
+    /* Scales the image to 250% of its original size */
+}
